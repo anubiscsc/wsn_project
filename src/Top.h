@@ -17,14 +17,19 @@
 #include "tlm_utils/peq_with_cb_and_phase.h"
 #include <queue>
 
+#include "Log.h"
+//#include "state_extension.h"
+//#include "collision_extension.h"
 //#define DEBUG
 
-class mote;
-class channel;
+class state_extension;
+class collision_extension;
+class Mote;
+class Channel;
 
 SC_MODULE(Top){
 
-	channel* channel1;
+	Channel* channel1;
 	SC_HAS_PROCESS(Top);
 	Top(sc_core::sc_module_name, int);
 

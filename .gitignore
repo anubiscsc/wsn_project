@@ -1,0 +1,7 @@
+# no /Debug directory
+/Debug
+# ignore .cproject and .project files
+.cproject
+.project 
+# no .o files
+*.o

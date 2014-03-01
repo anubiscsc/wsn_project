@@ -9,14 +9,15 @@
 #define STATE_EXTENSION_H_
 
 #include <tlm_core/tlm_2/tlm_generic_payload/tlm_gp.h>
+#include "Mote.h"
 
 class state_extension: public tlm::tlm_extension<state_extension> {
 public:
 	state_extension();
 	bool state_change;
-	mote::state_t state;
-	virtual tlm::tlm_extension_base* clone() const;
-	virtual void copy_from(tlm_extension_base const&);
+	Mote::state_t state;
+	tlm::tlm_extension_base* clone() const;
+	void copy_from(tlm_extension_base const&);
 };
 
 #endif /* STATE_EXTENSION_H_ */

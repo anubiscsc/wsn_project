@@ -1,0 +1,5 @@
+This is a README file for the project: Wireless Sensor Networks
+The project is programmed with some special C++ libraries called SystemC and TLM-2.0 which provides a set of functionalities in order to codesign hardware & software and stablish a coding style of high level modul comunication.
+Main feature within the project is the TLM-2.0 comunicating protocol on Aproximately-timed coding style.
+
+new descriptions comming soon...

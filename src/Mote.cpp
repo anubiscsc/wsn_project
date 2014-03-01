@@ -5,24 +5,35 @@
  *      Author: Anubiscsc
  */
 
-#include "mote.h"
+#include "Mote.h"
 #include "Log.h"
+#include "state_extension.h"
+#include "collision_extension.h"
 
 using namespace sc_core;
 using namespace sc_dt;
 using namespace std;
 
-mote::mote(sc_module_name name_) :
+
+ostream& operator<<(ostream& out, const Mote::state_t& state){
+	switch (state){
+		case Mote::LISTENING_CHANNEL: return out << "LISTENING_CHANNEL";
+		case Mote::STANDBY: return out << "STANDBY";
+		case Mote::SENDING_TRANS: return out << "SENDING_TRANS";
+	}
+}
+
+Mote::Mote(sc_module_name name_) :
 			sc_module(name_),
 			i_socket("socket"),
 			t_socket("_socket"),
 			response_in_progress(false),
 			request_in_progress(0),
-			m_state(mote::STANDBY),
-			m_peq(this, &mote::peq_cb) {
+			//m_state(Mote::STANDBY),
+			m_peq(this, &Mote::peq_cb) {
 
-	i_socket.register_nb_transport_bw(this, &mote::nb_transport_bw);
-	t_socket.register_nb_transport_fw(this, &mote::nb_transport_fw);
+	i_socket.register_nb_transport_bw(this, &Mote::nb_transport_bw);
+	t_socket.register_nb_transport_fw(this, &Mote::nb_transport_fw);
 	//t_socket.register_transport_dbg(this, &mote::transport_dbg);
 
 	log = Log::Instance();
@@ -35,47 +46,53 @@ mote::mote(sc_module_name name_) :
 
 }
 
-void mote::thread_process(){
+void Mote::thread_process(){
 
 	tlm::tlm_generic_payload* trans;
 	tlm::tlm_phase phase;
 	sc_time delay;
 	tlm::tlm_sync_enum status;
 	state_extension *s_ext = new state_extension(); //Instanciate a new extension object
+	collision_extension* c_ext = new collision_extension(); //Instanciate a new extension object
+	Mote::state_t last_state;
 
-	//Initialize generic payload attributes
-	trans->set_command(tlm::TLM_IGNORE_COMMAND);
-	//...
+	phase = tlm::BEGIN_REQ;
+	delay = SC_ZERO_TIME; //sets delay variable to zero
+	last_state = Mote::STANDBY; //starts with state=STANDBY because state_extension class constructor do so.
 
-	//generate a state behaviour changing
+	trans = m_mm.allocate(); // Grab a new transaction from the memory manager
+	trans->acquire(); // Increment the transaction reference count
 
-	switch (s_ext->state) {
+	trans->set_response_status( tlm::TLM_INCOMPLETE_RESPONSE ); // Mandatory initial value
+	trans->set_extension(s_ext); //set a new extension to the generic payload with state_extension type
+	status = i_socket->nb_transport_fw(*trans, phase, delay); //Sending an initial transaction to update the channel states snapshot
+	if(status == tlm::TLM_COMPLETED){
+		request_in_progress = 0; // The completion of the transaction necessarily ends the BEGIN_REQ phase
+		check_transaction( *trans ); // The target has terminated the transaction
+	}
 
-	case (mote::STANDBY):  //if this->m_state=STANDBY
+	for (int i = 0; i < 20; i++){ //repeat the process i times
+		wait(sc_time(rand()%1000, SC_US)); //each iteration, the mote waits a random time to create asynchron mote behaviour
 
-		if (s_ext->state_change){
-			//status = nb_transport_fw(...);
-		}
+		s_ext->state = static_cast<Mote::state_t>(rand() % 3); //generate a random state behaviour
 
 
-	case (mote::LISTENING_CHANNEL):  //if this->m_state=LISTENING_CHANNEL
+		if(last_state != s_ext->state)
+			s_ext->state_change = true;
+		else
+			s_ext->state_change = false;
 
-		// ...
+		//m_state = Mote::SENDING_TRANS; //sets the mote state to SENDING TRANSACTION
+		log->SC_log() << "Initiator " << name() << " State=" << s_ext->state << endl;
+		log->SC_log() << "Initiator " << name() << " ----> Sending gp_t object through channel1" << endl;
 
-	case (mote::SENDING_TRANS):	 //if this->m_state=SENDING_TRANS
+		tlm::tlm_command cmd = static_cast<tlm::tlm_command>(rand() % 2);
+		if (cmd == tlm::TLM_WRITE_COMMAND) buffer[i % 10] = rand();
 
-		// Generate a sequence of random transactions
-		for (int i = 0; i < 2; i++)
-		{
-			tlm::tlm_command cmd = static_cast<tlm::tlm_command>(rand() % 2);
-			if (cmd == tlm::TLM_WRITE_COMMAND) buffer[i % 10] = rand();
+		trans = m_mm.allocate(); // Grab a new transaction from the memory manager
+		trans->acquire(); // Increment the transaction reference count
 
-			//cout << name() << ": cmd=" << cmd << endl;
-			// Grab a new transaction from the memory manager
-			trans = m_mm.allocate();
-			// Increment the transaction reference count
-			trans->acquire();
-
+		if(s_ext->state == Mote::SENDING_TRANS){
 			// Set all attributes except byte_enable_length and extensions (unused)
 			trans->set_command( cmd );
 			trans->set_address( rand() );
@@ -84,38 +101,34 @@ void mote::thread_process(){
 			trans->set_streaming_width( 4 ); // = data_length to indicate no streaming
 			trans->set_byte_enable_ptr( 0 ); // 0 indicates unused
 			trans->set_dmi_allowed( false ); // Mandatory initial value
-			trans->set_response_status( tlm::TLM_INCOMPLETE_RESPONSE ); // Mandatory initial value
-			trans->set_extension(s_ext); //set a new extension to the generic payload
-
-			// Initiator must honor BEGIN_REQ/END_REQ exclusion rule
-			if (request_in_progress)
-				wait(end_request_event);
-
-			request_in_progress = trans;
-			phase = tlm::BEGIN_REQ;
-			delay = sc_time(rand()%50, SC_NS);
-
-			log->SC_log() << "Initiator " << name() << " ----> Sending Transaction through channel1" << endl;
-			m_state = mote::SENDING_TRANS; //sets the mote state to SENDING TRANSACTION
-			status = i_socket->nb_transport_fw(*trans, phase, delay); // Non-blocking transport call on the forward path
-			m_state = mote::STANDBY; //sets the mote state to STANDBY
-			if (status == tlm::TLM_UPDATED){
-				//insert a transaction into the Payload Event Queue for
-				//sum of simulation time plus delay time
-				m_peq.notify(*trans, phase, delay);
-			}
-			else if(status == tlm::TLM_COMPLETED){
-				// The completion of the transaction necessarily ends the BEGIN_REQ phase
-				request_in_progress = 0;
-				// The target has terminated the transaction
-				check_transaction( *trans );
-			}
+			trans->set_extension(c_ext); //set a new extension to the generic payload with collision_extension type
 		}
+		trans->set_response_status( tlm::TLM_INCOMPLETE_RESPONSE ); // Mandatory initial value
+		trans->set_extension(s_ext); //set a new extension to the generic payload with state_extension type
 
+
+		// Initiator must honor BEGIN_REQ/END_REQ exclusion rule
+		if (request_in_progress)
+			wait(end_request_event);
+
+		request_in_progress = trans;
+
+		status = i_socket->nb_transport_fw(*trans, phase, delay); // Non-blocking transport call on the forward path
+
+		if (status == tlm::TLM_UPDATED){
+			//insert a transaction into the Payload Event Queue for
+			//sum of simulation time plus delay time
+			m_peq.notify(*trans, phase, delay);
+		}
+		else if(status == tlm::TLM_COMPLETED){
+			request_in_progress = 0; // The completion of the transaction necessarily ends the BEGIN_REQ phase
+			check_transaction( *trans ); // The target has terminated the transaction
+		}
+		last_state = s_ext->state;
 	}
 }
 
-tlm::tlm_sync_enum mote::nb_transport_fw( tlm::tlm_generic_payload& trans,
+tlm::tlm_sync_enum Mote::nb_transport_fw( tlm::tlm_generic_payload& trans,
                                               	  tlm::tlm_phase& phase, sc_time& delay ){
 
 	//sc_dt::uint64    adr = trans.get_address();
@@ -138,31 +151,30 @@ tlm::tlm_sync_enum mote::nb_transport_fw( tlm::tlm_generic_payload& trans,
 }
 
 // Called on receiving BEGIN_RESP or TLM_COMPLETED
-void mote::check_transaction(tlm::tlm_generic_payload& trans){
+void Mote::check_transaction(tlm::tlm_generic_payload& trans){
 
 	if(trans.is_response_error()){
 		//char txt[100];
 		//sprintf(txt, "Transaction returned with error, response status = %s",
 		//              trans.get_response_string().c_str());
 		//SC_REPORT_ERROR("TLM-2", txt);
-		log->SC_log() << "TLM-2 Transaction returned with error, response status = "
+		log->SC_log() << "TLM-2 Transaction returned with error, response status: "
 				<< trans.get_response_string().c_str() << endl;
 	}
 
+#ifdef DEBUG
 	tlm::tlm_command cmd = trans.get_command();
 	uint64    		 adr = trans.get_address();
 	int*             ptr = reinterpret_cast<int*>( trans.get_data_ptr() );
 
-#ifdef DEBUG
 	log->SC_log() << "DEBUG: " << name() << ": Transaction COMPLETED" << endl;
 	log->SC_log() << "DEBUG: " << name() << ": Checking Transaction | Address=" << hex << adr
 				<< " | cmd=" << (cmd ? 'W' : 'R') << " | data=" << hex << *ptr << endl;
 #endif
 
-
-	// Allow the memory manager to free the transaction object
-	trans.release();
+	trans.release(); // Allow the memory manager to free the transaction object
 }
+
 /*
 void mote::listen_channel(){
 
@@ -188,7 +200,7 @@ void mote::init(int ln){
 // Payload event queue callback to handle transactions from target
 // Transaction could have arrived through return path or backward path
 
-void mote::peq_cb(tlm::tlm_generic_payload& trans, const tlm::tlm_phase& phase){
+void Mote::peq_cb(tlm::tlm_generic_payload& trans, const tlm::tlm_phase& phase){
 
 	#ifdef DEBUG
 		if (phase == tlm::END_REQ)
@@ -202,14 +214,19 @@ void mote::peq_cb(tlm::tlm_generic_payload& trans, const tlm::tlm_phase& phase){
 	tlm::tlm_phase fw_phase = tlm::BEGIN_REQ;
     //tlm::tlm_sync_enum status;
     sc_time delay;
+    collision_extension* c_ext;
+
+    trans.get_extension(c_ext);
 
     switch (phase) {
     	//CASES FOR TARGET PAYLOAD EVENT QUEUE
     	case tlm::BEGIN_REQ:
-
-			log->SC_log() << "Target " << name() << " <---- Transaction object received. | cmd=" << (trans.get_command()? 'W' : 'R')
+    		if (c_ext->is_Collision)
+			log->SC_log() << "Target " << name() << " <---- Transaction object received with an in-flight collision. | cmd=" << (trans.get_command()? 'W' : 'R')
 							<< " | Address=" << hex << trans.get_address() << " | data=" << hex << *reinterpret_cast<int*>( trans.get_data_ptr() ) << endl;
-
+    		else
+    			log->SC_log() << "Target " << name() << " <---- Transaction object received. | cmd=" << (trans.get_command()? 'W' : 'R')
+    						<< " | Address=" << hex << trans.get_address() << " | data=" << *reinterpret_cast<int*>( trans.get_data_ptr() ) << endl;
 			break;
 
 		case tlm::END_RESP:
@@ -261,7 +278,7 @@ void mote::peq_cb(tlm::tlm_generic_payload& trans, const tlm::tlm_phase& phase){
 
 }
 
-tlm::tlm_sync_enum mote::send_end_req(tlm::tlm_generic_payload& trans){
+tlm::tlm_sync_enum Mote::send_end_req(tlm::tlm_generic_payload& trans){
 
 	tlm::tlm_sync_enum status;
     tlm::tlm_phase bw_phase;
@@ -288,7 +305,7 @@ tlm::tlm_sync_enum mote::send_end_req(tlm::tlm_generic_payload& trans){
     return status;
 }
 
-void mote::send_response(tlm::tlm_generic_payload& trans){
+void Mote::send_response(tlm::tlm_generic_payload& trans){
 
 	tlm::tlm_sync_enum status;
 	tlm::tlm_phase bw_phase;
@@ -313,10 +330,11 @@ void mote::send_response(tlm::tlm_generic_payload& trans){
 	}
 }
 
-tlm::tlm_sync_enum mote::nb_transport_bw( tlm::tlm_generic_payload& trans,
+tlm::tlm_sync_enum Mote::nb_transport_bw( tlm::tlm_generic_payload& trans,
                                               tlm::tlm_phase& phase, sc_time& delay )
   {
     // The timing annotation must be honored
     m_peq.notify( trans, phase, delay );
     return tlm::TLM_ACCEPTED;
   }
+

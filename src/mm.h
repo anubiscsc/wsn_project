@@ -8,8 +8,6 @@
 #ifndef MM_H_
 #define MM_H_
 
-//#include "mote.h"
-
 #include "tlm_utils/simple_initiator_socket.h"
 
 using namespace sc_core;
