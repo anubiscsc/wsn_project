@@ -9,6 +9,7 @@
 #define MM_H_
 
 #include "tlm_utils/simple_initiator_socket.h"
+class Log;
 
 using namespace sc_core;
 using namespace std;
@@ -33,7 +34,7 @@ private:
 
   access* free_list;
   access* empties;
-
+  Log* log;
 };
 
 #endif /* MM_H_ */

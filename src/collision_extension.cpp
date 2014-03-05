@@ -13,12 +13,10 @@ collision_extension::collision_extension(): is_Collision(false) { } //Constructo
 
 tlm_extension_base* collision_extension::clone() const {
 	collision_extension* t = new collision_extension();
-	//t->ID = this->ID;
 	t->is_Collision = this->is_Collision;
 	return t;
 }
 
 void collision_extension::copy_from(tlm_extension_base const &ext){
-	//ID = static_cast< collision_extension const & >(ext).ID;
 	is_Collision = static_cast< collision_extension const & >(ext).is_Collision;
 }

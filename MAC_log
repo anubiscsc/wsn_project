@@ -1,0 +1,1027 @@
+time 0 s: mote_base: STARTING base_mote_MAC1_simulation | mote_id=-1
+time 0 s: mote_0: STARTING mote_MAC1_simulation | mote_id=0
+time 0 s: mote_1: STARTING mote_MAC1_simulation | mote_id=1
+time 0 s: mote_2: STARTING mote_MAC1_simulation | mote_id=2
+time 0 s: mote_3: STARTING mote_MAC1_simulation | mote_id=3
+time 0 s: mote_4: STARTING mote_MAC1_simulation | mote_id=4
+time 0 s: mote_5: STARTING mote_MAC1_simulation | mote_id=5
+time 0 s: mote_6: STARTING mote_MAC1_simulation | mote_id=6
+time 0 s: mote_7: STARTING mote_MAC1_simulation | mote_id=7
+time 0 s: mote_8: STARTING mote_MAC1_simulation | mote_id=8
+time 0 s: mote_9: STARTING mote_MAC1_simulation | mote_id=9
+time 0 s: mote_10: STARTING mote_MAC1_simulation | mote_id=10
+time 0 s: mote_11: STARTING mote_MAC1_simulation | mote_id=11
+time 0 s: mote_12: STARTING mote_MAC1_simulation | mote_id=12
+time 0 s: mote_13: STARTING mote_MAC1_simulation | mote_id=13
+time 0 s: mote_14: STARTING mote_MAC1_simulation | mote_id=14
+time 0 s: mote_15: STARTING mote_MAC1_simulation | mote_id=15
+time 0 s: mote_16: STARTING mote_MAC1_simulation | mote_id=16
+time 0 s: mote_17: STARTING mote_MAC1_simulation | mote_id=17
+time 0 s: mote_18: STARTING mote_MAC1_simulation | mote_id=18
+time 0 s: mote_19: STARTING mote_MAC1_simulation | mote_id=19
+time 0 s: mote_20: STARTING mote_MAC1_simulation | mote_id=20
+time 0 s: mote_21: STARTING mote_MAC1_simulation | mote_id=21
+time 0 s: mote_22: STARTING mote_MAC1_simulation | mote_id=22
+time 0 s: mote_23: STARTING mote_MAC1_simulation | mote_id=23
+time 0 s: mote_24: STARTING mote_MAC1_simulation | mote_id=24
+time 1293173 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b91e34
+time 1293292 us: Target mote_base <---- Packet received | Address=327b23c6 | data=b91e34
+time 1293411 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 1293500 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 1395619 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c4d871
+time 1395738 us: Target mote_base <---- Packet received | Address=66334873 | data=c4d871
+time 1395857 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 1395946 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 4374484 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=79ed6f
+time 4374603 us: Target mote_base <---- Packet received | Address=19495cff | data=79ed6f
+time 4374722 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 4374811 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 4714895 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a6cf76
+time 4715014 us: Target mote_base <---- Packet received | Address=625558ec | data=a6cf76
+time 4715133 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 4715222 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 5575128 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4802cd
+time 5575247 us: Target mote_base <---- Packet received | Address=46e87ccd | data=4802cd
+time 5575366 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 5575455 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 6046246 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4be81a
+time 6046365 us: Target mote_base <---- Packet received | Address=507ed7ab | data=4be81a
+time 6046484 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 6046573 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 6453702 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=5a9d5d
+time 6453821 us: Target mote_base <---- Packet received | Address=41b71efb | data=5a9d5d
+time 6453940 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 6454029 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 6695706 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=9352d7
+time 6695825 us: Target mote_base <---- Packet received | Address=7545e146 | data=9352d7
+time 6695944 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 6696033 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 6889494 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=58d0c3
+time 6889613 us: Target mote_base <---- Packet received | Address=5bd062c2 | data=58d0c3
+time 6889732 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 6889821 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 8793499 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=903de6
+time 8793618 us: Target mote_base <---- Packet received | Address=4db127f8 | data=903de6
+time 8793737 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 8793826 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 8840568 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c9a69
+time 8840687 us: Target mote_base <---- Packet received | Address=1f16e9e8 | data=c9a69
+time 8840806 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 8840895 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 8895949 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b72b70
+time 8896068 us: Target mote_base <---- Packet received | Address=66ef438d | data=b72b70
+time 8896187 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 8896276 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 8899647 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c0a08b
+time 8899766 us: Target mote_base <---- Packet received | Address=3352255a | data=c0a08b
+time 8899885 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 8899974 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 9470032 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=ddfa55
+time 9470151 us: Target mote_base <---- Packet received | Address=ded7263 | data=ddfa55
+time 9470270 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 9470359 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 10930673 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8a665d
+time 10930792 us: Target mote_base <---- Packet received | Address=1befd79f | data=8a665d
+time 10930911 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 10931 ms: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 11062454 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4d93d3
+time 11062573 us: Target mote_base <---- Packet received | Address=6b68079a | data=4d93d3
+time 11062692 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 11062781 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 11480377 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8cc0c6
+time 11480496 us: Target mote_base <---- Packet received | Address=25e45d32 | data=8cc0c6
+time 11480615 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 11480704 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 11627699 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3d50de
+time 11627818 us: Target mote_base <---- Packet received | Address=431bd7b7 | data=3d50de
+time 11627937 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 11628026 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 11671859 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c41992
+time 11671978 us: Target mote_base <---- Packet received | Address=7c83e458 | data=c41992
+time 11672097 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 11672186 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 11724724 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b5f6a0
+time 11724843 us: Target mote_base <---- Packet received | Address=62bbd95a | data=b5f6a0
+time 11724962 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 11725051 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 11874811 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=e0475a
+time 11874930 us: Target mote_base <---- Packet received | Address=628c895d | data=e0475a
+time 11875049 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 11875138 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 12215227 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=2da031
+time 12215346 us: Target mote_base <---- Packet received | Address=721da317 | data=2da031
+time 12215465 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 12215554 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 12683756 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6ed4bb
+time 12683875 us: Target mote_base <---- Packet received | Address=2d1d5ae9 | data=6ed4bb
+time 12683994 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 12684083 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 13075455 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a35be7
+time 13075574 us: Target mote_base <---- Packet received | Address=75a2a8d4 | data=a35be7
+time 13075693 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 13075782 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 13179605 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a6cc3a
+time 13179724 us: Target mote_base <---- Packet received | Address=79838cb2 | data=a6cc3a
+time 13179843 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 13179932 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 13236060 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=aba126
+time 13236179 us: Target mote_base <---- Packet received | Address=b03e0c6 | data=aba126
+time 13236298 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 13236387 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 13546573 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=57d0df
+time 13546692 us: Target mote_base <---- Packet received | Address=54e49eb4 | data=57d0df
+time 13546811 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 13546900 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 13954029 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=854ae3
+time 13954148 us: Target mote_base <---- Packet received | Address=2ca88611 | data=854ae3
+time 13954267 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 13954356 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 14196037 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=2d284
+time 14196156 us: Target mote_base <---- Packet received | Address=2901d82 | data=2d284
+time 14196275 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 14196364 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 14210244 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=57841b
+time 14210363 us: Target mote_base <---- Packet received | Address=8138641 | data=57841b
+time 14210482 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 14210571 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 14389819 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=400284
+time 14389938 us: Target mote_base <---- Packet received | Address=7c3dbd3d | data=400284
+time 14390057 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 14390146 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 14393857 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a150f2
+time 14393976 us: Target mote_base <---- Packet received | Address=6ceaf087 | data=a150f2
+time 14394095 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 14394184 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 14710354 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1b42fa
+time 14710473 us: Target mote_base <---- Packet received | Address=4516dde9 | data=1b42fa
+time 14710592 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 14710681 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 14799802 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8e7edd
+time 14799921 us: Target mote_base <---- Packet received | Address=614fd4a1 | data=8e7edd
+time 14800040 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 14800129 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 16293822 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=53e4b0
+time 16293941 us: Target mote_base <---- Packet received | Address=5577f8e1 | data=53e4b0
+time 16294060 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 16294149 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 16340893 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=e22a7c
+time 16341012 us: Target mote_base <---- Packet received | Address=5072367 | data=e22a7c
+time 16341131 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 16341220 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 16396274 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=96fa44
+time 16396393 us: Target mote_base <---- Packet received | Address=77465f01 | data=96fa44
+time 16396512 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 16396601 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 16399973 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=bb80bf
+time 16400092 us: Target mote_base <---- Packet received | Address=5c482a97 | data=bb80bf
+time 16400211 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 16400300 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 16970361 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=496856
+time 16970480 us: Target mote_base <---- Packet received | Address=5e884adc | data=496856
+time 16970599 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 16970688 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 18431 ms: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1e6a53
+time 18431119 us: Target mote_base <---- Packet received | Address=2d517796 | data=1e6a53
+time 18431238 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 18431327 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 18562779 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a701ed
+time 18562898 us: Target mote_base <---- Packet received | Address=153ea438 | data=a701ed
+time 18563017 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 18563106 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 18980706 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c2d832
+time 18980825 us: Target mote_base <---- Packet received | Address=70a64e2a | data=c2d832
+time 18980944 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 18981033 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 19128022 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8cccbb
+time 19128141 us: Target mote_base <---- Packet received | Address=2a487cb0 | data=8cccbb
+time 19128260 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 19128349 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 19172185 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c8a21f
+time 19172304 us: Target mote_base <---- Packet received | Address=725a06fb | data=c8a21f
+time 19172423 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 19172512 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 19225050 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=d56b91
+time 19225169 us: Target mote_base <---- Packet received | Address=57e4ccaf | data=d56b91
+time 19225288 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 19225377 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 19375137 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=588100
+time 19375256 us: Target mote_base <---- Packet received | Address=4b588f54 | data=588100
+time 19375375 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 19375464 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 19715557 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=17957f
+time 19715676 us: Target mote_base <---- Packet received | Address=6de91b18 | data=17957f
+time 19715795 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 19715884 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 20184082 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=17b5b3
+time 20184201 us: Target mote_base <---- Packet received | Address=7644a45c | data=17b5b3
+time 20184320 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 20184409 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 20575782 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=df5167
+time 20575901 us: Target mote_base <---- Packet received | Address=684a481a | data=df5167
+time 20576020 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 20576109 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 20679933 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=e4dfd4
+time 20680052 us: Target mote_base <---- Packet received | Address=749abb43 | data=e4dfd4
+time 20680171 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 20680260 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 20736386 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=9b6b21
+time 20736505 us: Target mote_base <---- Packet received | Address=1ba026fa | data=9b6b21
+time 20736624 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 20736713 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 21046902 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7542f5
+time 21047021 us: Target mote_base <---- Packet received | Address=75c6c33a | data=7542f5
+time 21047140 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 21047229 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 21454357 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=61397b
+time 21454476 us: Target mote_base <---- Packet received | Address=70c6a529 | data=61397b
+time 21454595 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 21454684 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 21696365 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6bc19d
+time 21696484 us: Target mote_base <---- Packet received | Address=374a3fe6 | data=6bc19d
+time 21696603 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 21696692 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 21710571 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6f63e7
+time 21710690 us: Target mote_base <---- Packet received | Address=23f9c13c | data=6f63e7
+time 21710809 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 21710898 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 21890146 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b5d3bd
+time 21890265 us: Target mote_base <---- Packet received | Address=275ac794 | data=b5d3bd
+time 21890384 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 21890473 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 21894184 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6eac49
+time 21894303 us: Target mote_base <---- Packet received | Address=1cf10fd8 | data=6eac49
+time 21894422 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 21894511 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 22210681 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=77bb0b
+time 22210800 us: Target mote_base <---- Packet received | Address=235ba861 | data=77bb0b
+time 22210919 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 22211008 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 22300130 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=879034
+time 22300249 us: Target mote_base <---- Packet received | Address=354fe9f9 | data=879034
+time 22300368 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 22300457 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 23794151 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=2d3c65
+time 23794270 us: Target mote_base <---- Packet received | Address=741226bb | data=2d3c65
+time 23794389 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 23794478 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 23841222 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=af9854
+time 23841341 us: Target mote_base <---- Packet received | Address=10233c99 | data=af9854
+time 23841460 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 23841549 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 23896602 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=222635
+time 23896721 us: Target mote_base <---- Packet received | Address=61574095 | data=222635
+time 23896840 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 23896929 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 23900299 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=16964f
+time 23900418 us: Target mote_base <---- Packet received | Address=77ae35eb | data=16964f
+time 23900537 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 23900626 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 24470683 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=af9ac8
+time 24470802 us: Target mote_base <---- Packet received | Address=310c50b3 | data=af9ac8
+time 24470921 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 24471010 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 25931326 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=424b0a
+time 25931445 us: Target mote_base <---- Packet received | Address=2f305def | data=424b0a
+time 25931564 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 25931653 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 26063105 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=638108
+time 26063224 us: Target mote_base <---- Packet received | Address=1dbabf00 | data=638108
+time 26063343 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 26063432 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 26481034 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1aec70
+time 26481153 us: Target mote_base <---- Packet received | Address=1f48eaa1 | data=1aec70
+time 26481272 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 26481361 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 26628349 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=335ccc
+time 26628468 us: Target mote_base <---- Packet received | Address=5db70ae5 | data=335ccc
+time 26628587 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 26628676 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 26672509 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=54533b
+time 26672628 us: Target mote_base <---- Packet received | Address=6590700b | data=54533b
+time 26672747 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 26672836 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 26725376 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=216f66
+time 26725495 us: Target mote_base <---- Packet received | Address=5f5e7fd0 | data=216f66
+time 26725614 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 26725703 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 26875467 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1cdb80
+time 26875586 us: Target mote_base <---- Packet received | Address=799d0247 | data=1cdb80
+time 26875705 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 26875794 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 27215886 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=db10fe
+time 27216005 us: Target mote_base <---- Packet received | Address=42c296bd | data=db10fe
+time 27216124 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 27216213 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 27684412 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4b8422
+time 27684531 us: Target mote_base <---- Packet received | Address=1eba5d23 | data=4b8422
+time 27684650 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 27684739 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 28076108 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=95d192
+time 28076227 us: Target mote_base <---- Packet received | Address=5dc79ea8 | data=95d192
+time 28076346 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 28076435 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 28180262 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=26ad3c
+time 28180381 us: Target mote_base <---- Packet received | Address=7bd3ee7b | data=26ad3c
+time 28180500 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 28180589 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 28236712 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=d873b3
+time 28236831 us: Target mote_base <---- Packet received | Address=613efdc5 | data=d873b3
+time 28236950 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 28237039 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 28547232 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=dbcdef
+time 28547351 us: Target mote_base <---- Packet received | Address=11447b73 | data=dbcdef
+time 28547470 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 28547559 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 28954686 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=789c94
+time 28954805 us: Target mote_base <---- Packet received | Address=a0382c5 | data=789c94
+time 28954924 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 28955013 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 29196692 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=2f99c5
+time 29196811 us: Target mote_base <---- Packet received | Address=1a32234b | data=2f99c5
+time 29196930 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 29197019 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 29210896 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a1f8a8
+time 29211015 us: Target mote_base <---- Packet received | Address=68eb2f63 | data=a1f8a8
+time 29211134 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 29211223 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 29390473 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=839c6e
+time 29390592 us: Target mote_base <---- Packet received | Address=60b6df70 | data=839c6e
+time 29390711 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 29390800 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 29394509 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=db5b0d
+time 29394628 us: Target mote_base <---- Packet received | Address=14330624 | data=db5b0d
+time 29394747 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 29394836 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 29711010 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=2afc74
+time 29711129 us: Target mote_base <---- Packet received | Address=1a27709e | data=2afc74
+time 29711248 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 29711337 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 29800456 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1332b
+time 29800575 us: Target mote_base <---- Packet received | Address=100f59dc | data=1332b
+time 29800694 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 29800783 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 31294478 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=598b0
+time 31294597 us: Target mote_base <---- Packet received | Address=6eb5bd4 | data=598b0
+time 31294716 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 31294805 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 31341547 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=32ca4c
+time 31341666 us: Target mote_base <---- Packet received | Address=94211f2 | data=32ca4c
+time 31341785 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 31341874 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 31396929 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3e5e5b
+time 31397048 us: Target mote_base <---- Packet received | Address=76272110 | data=3e5e5b
+time 31397167 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 31397256 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 31400626 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6e83da
+time 31400745 us: Target mote_base <---- Packet received | Address=1716703b | data=6e83da
+time 31400864 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 31400953 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 31971007 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c5b8eb
+time 31971126 us: Target mote_base <---- Packet received | Address=3222e7cd | data=c5b8eb
+time 31971245 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 31971334 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 33431654 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=82f7d5
+time 33431773 us: Target mote_base <---- Packet received | Address=68ebc550 | data=82f7d5
+time 33431892 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 33431981 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 33563433 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1b3fd2
+time 33563552 us: Target mote_base <---- Packet received | Address=46b7d447 | data=1b3fd2
+time 33563671 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 33563760 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 33981359 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7e9be1
+time 33981478 us: Target mote_base <---- Packet received | Address=39ee015c | data=7e9be1
+time 33981597 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 33981686 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 34128675 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6cb379
+time 34128794 us: Target mote_base <---- Packet received | Address=cc1016f | data=6cb379
+time 34128913 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 34129002 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 34172834 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=48d48e
+time 34172953 us: Target mote_base <---- Packet received | Address=60ef0119 | data=48d48e
+time 34173072 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 34173161 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 34225704 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=fc436
+time 34225823 us: Target mote_base <---- Packet received | Address=7f01579b | data=fc436
+time 34225942 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 34226031 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 34375796 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=e1f7c0
+time 34375915 us: Target mote_base <---- Packet received | Address=7055a5f5 | data=e1f7c0
+time 34376034 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 34376123 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 34716213 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=880b78
+time 34716332 us: Target mote_base <---- Packet received | Address=50801ee1 | data=880b78
+time 34716451 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 34716540 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 35184737 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=729b69
+time 35184856 us: Target mote_base <---- Packet received | Address=5fb8011c | data=729b69
+time 35184975 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 35185064 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 35576436 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=938a01
+time 35576555 us: Target mote_base <---- Packet received | Address=7672bd23 | data=938a01
+time 35576674 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 35576763 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 35680591 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=dc1a04
+time 35680710 us: Target mote_base <---- Packet received | Address=6a5f7029 | data=dc1a04
+time 35680829 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 35680918 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 35737041 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=9633b7
+time 35737160 us: Target mote_base <---- Packet received | Address=5f3534a4 | data=9633b7
+time 35737279 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 35737368 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 36047557 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7043f6
+time 36047676 us: Target mote_base <---- Packet received | Address=7de67713 | data=7043f6
+time 36047795 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 36047884 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 36455015 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3c36c0
+time 36455134 us: Target mote_base <---- Packet received | Address=3fa62aca | data=3c36c0
+time 36455253 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 36455342 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 36697021 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=5ef969
+time 36697140 us: Target mote_base <---- Packet received | Address=6a3dd3e8 | data=5ef969
+time 36697259 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 36697348 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 36711223 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1ff50c
+time 36711342 us: Target mote_base <---- Packet received | Address=9daf632 | data=1ff50c
+time 36711461 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 36711550 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 36890797 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=71621e
+time 36890916 us: Target mote_base <---- Packet received | Address=1fbfe8e0 | data=71621e
+time 36891035 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 36891124 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 36894835 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c0e43
+time 36894954 us: Target mote_base <---- Packet received | Address=1d545c4d | data=c0e43
+time 36895073 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 36895162 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 37211335 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=daa0a6
+time 37211454 us: Target mote_base <---- Packet received | Address=288f1a34 | data=daa0a6
+time 37211573 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 37211662 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 37300784 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4688cf
+time 37300903 us: Target mote_base <---- Packet received | Address=1d9f6e5f | data=4688cf
+time 37301022 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 37301111 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 38794806 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=79c427
+time 38794925 us: Target mote_base <---- Packet received | Address=51088277 | data=79c427
+time 38795044 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 38795133 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 38841874 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=aff0da
+time 38841993 us: Target mote_base <---- Packet received | Address=53584bcb | data=aff0da
+time 38842112 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 38842201 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 38897258 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=59ea83
+time 38897377 us: Target mote_base <---- Packet received | Address=7c58fd05 | data=59ea83
+time 38897496 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 38897585 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 38900951 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=603666
+time 38901070 us: Target mote_base <---- Packet received | Address=45e6d486 | data=603666
+time 38901189 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 38901278 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 39471337 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b377e2
+time 39471456 us: Target mote_base <---- Packet received | Address=e7ffa2b | data=b377e2
+time 39471575 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 39471664 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 40931981 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=d55aac
+time 40932100 us: Target mote_base <---- Packet received | Address=4bd8591a | data=d55aac
+time 40932219 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 40932308 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 41063761 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=82bb5c
+time 41063880 us: Target mote_base <---- Packet received | Address=39b7aaa2 | data=82bb5c
+time 41063999 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 41064088 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 41481686 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=839387
+time 41481805 us: Target mote_base <---- Packet received | Address=6c80ec70 | data=839387
+time 41481924 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 41482013 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 41629003 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b00830
+time 41629122 us: Target mote_base <---- Packet received | Address=69e373 | data=b00830
+time 41629241 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 41629330 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 41673160 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=51f6d0
+time 41673279 us: Target mote_base <---- Packet received | Address=4c9b0904 | data=51f6d0
+time 41673398 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 41673487 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 41726030 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7f279f
+time 41726149 us: Target mote_base <---- Packet received | Address=1df029d3 | data=7f279f
+time 41726268 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 41726357 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 41876124 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=dc36e8
+time 41876243 us: Target mote_base <---- Packet received | Address=3dd15094 | data=dc36e8
+time 41876362 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 41876451 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 42216544 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=2d1369
+time 42216663 us: Target mote_base <---- Packet received | Address=2708c9af | data=2d1369
+time 42216782 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 42216871 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 42685064 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=21b3a3
+time 42685183 us: Target mote_base <---- Packet received | Address=175dfcf0 | data=21b3a3
+time 42685302 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 42685391 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 43076765 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b97e91
+time 43076884 us: Target mote_base <---- Packet received | Address=53b0a9e | data=b97e91
+time 43077003 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 43077092 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 43180919 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3deef6
+time 43181038 us: Target mote_base <---- Packet received | Address=5915ff32 | data=3deef6
+time 43181157 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 43181246 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 43237371 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=ce299d
+time 43237490 us: Target mote_base <---- Packet received | Address=519e3149 | data=ce299d
+time 43237609 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 43237698 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 43547880 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c2b6c1
+time 43547999 us: Target mote_base <---- Packet received | Address=17a1b582 | data=c2b6c1
+time 43548118 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 43548207 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 43955343 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=27d2a3
+time 43955462 us: Target mote_base <---- Packet received | Address=5046b5a9 | data=27d2a3
+time 43955581 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 43955670 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 44197350 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6827bf
+time 44197469 us: Target mote_base <---- Packet received | Address=2a082c70 | data=6827bf
+time 44197588 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 44197677 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 44211551 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=cd1cde
+time 44211670 us: Target mote_base <---- Packet received | Address=19e21bb2 | data=cd1cde
+time 44211789 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 44211878 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 44391122 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=19e734
+time 44391241 us: Target mote_base <---- Packet received | Address=57a61a29 | data=19e734
+time 44391360 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 44391449 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 44395164 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8560e3
+time 44395283 us: Target mote_base <---- Packet received | Address=20ee1348 | data=8560e3
+time 44395402 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 44395491 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 44711661 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b340cd
+time 44711780 us: Target mote_base <---- Packet received | Address=b37e80a | data=b340cd
+time 44711899 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 44711988 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 44801112 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=2e9d9e
+time 44801231 us: Target mote_base <---- Packet received | Address=704e1dd5 | data=2e9d9e
+time 44801350 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 44801439 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 46295134 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c462b4
+time 46295253 us: Target mote_base <---- Packet received | Address=bffae18 | data=c462b4
+time 46295372 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 46295461 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 46342201 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=67311f
+time 46342320 us: Target mote_base <---- Packet received | Address=2e48f044 | data=67311f
+time 46342439 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 46342528 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 46397581 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=aca4a7
+time 46397700 us: Target mote_base <---- Packet received | Address=4bee5a5b | data=aca4a7
+time 46397819 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 46397908 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 46401278 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8984f1
+time 46401397 us: Target mote_base <---- Packet received | Address=24f6ab8e | data=8984f1
+time 46401516 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 46401605 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 46971659 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7df812
+time 46971778 us: Target mote_base <---- Packet received | Address=24e99dd7 | data=7df812
+time 46971897 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 46971986 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 48432311 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8026ea
+time 48432430 us: Target mote_base <---- Packet received | Address=1849c29b | data=8026ea
+time 48432549 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 48432638 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 48564084 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1c3c6b
+time 48564203 us: Target mote_base <---- Packet received | Address=754342 | data=1c3c6b
+time 48564322 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 48564411 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 48982013 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6ef623
+time 48982132 us: Target mote_base <---- Packet received | Address=2a6de806 | data=6ef623
+time 48982251 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 48982340 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 49129331 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b8cec4
+time 49129450 us: Target mote_base <---- Packet received | Address=37df2233 | data=b8cec4
+time 49129569 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 49129658 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 49173489 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=63a248
+time 49173608 us: Target mote_base <---- Packet received | Address=759f82cd | data=63a248
+time 49173727 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 49173816 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 49226355 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3a339c
+time 49226474 us: Target mote_base <---- Packet received | Address=597b4d84 | data=3a339c
+time 49226593 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 49226682 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 49376454 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=459afa
+time 49376573 us: Target mote_base <---- Packet received | Address=57c7d42d | data=459afa
+time 49376692 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 49376781 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 49716869 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=28d070
+time 49716988 us: Target mote_base <---- Packet received | Address=631b64d4 | data=28d070
+time 49717107 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 49717196 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 50185389 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3e40b4
+time 50185508 us: Target mote_base <---- Packet received | Address=75486e47 | data=3e40b4
+time 50185627 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 50185716 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 50577091 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b10425
+time 50577210 us: Target mote_base <---- Packet received | Address=1a0dde32 | data=b10425
+time 50577329 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 50577418 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 50681244 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=442c6a
+time 50681363 us: Target mote_base <---- Packet received | Address=46263dec | data=442c6a
+time 50681482 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 50681571 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 50737698 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=9dffa1
+time 50737817 us: Target mote_base <---- Packet received | Address=73d4d3c4 | data=9dffa1
+time 50737936 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 50738025 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 51048207 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=83caff
+time 51048326 us: Target mote_base <---- Packet received | Address=6fde8af6 | data=83caff
+time 51048445 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 51048534 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 51455671 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7b7274
+time 51455790 us: Target mote_base <---- Packet received | Address=49c0e823 | data=7b7274
+time 51455909 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 51455998 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 51697676 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=daa55d
+time 51697795 us: Target mote_base <---- Packet received | Address=230f856c | data=daa55d
+time 51697914 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 51698003 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 51711878 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6a2d87
+time 51711997 us: Target mote_base <---- Packet received | Address=3f06ecb2 | data=6a2d87
+time 51712116 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 51712205 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 51891447 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c6e59f
+time 51891566 us: Target mote_base <---- Packet received | Address=6caa2304 | data=c6e59f
+time 51891685 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 51891774 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 51895490 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=e07070
+time 51895609 us: Target mote_base <---- Packet received | Address=25413bec | data=e07070
+time 51895728 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 51895817 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 52211989 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a87b3b
+time 52212108 us: Target mote_base <---- Packet received | Address=579328b9 | data=a87b3b
+time 52212227 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 52212316 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 52301437 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1cba27
+time 52301556 us: Target mote_base <---- Packet received | Address=11cca8ba | data=1cba27
+time 52301675 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 52301764 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 53795463 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=18a4ad
+time 53795582 us: Target mote_base <---- Packet received | Address=3f07acc3 | data=18a4ad
+time 53795701 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 53795790 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 53842528 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=9c6b3f
+time 53842647 us: Target mote_base <---- Packet received | Address=5cb44a05 | data=9c6b3f
+time 53842766 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 53842855 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 53897908 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=45155d
+time 53898027 us: Target mote_base <---- Packet received | Address=1c695dec | data=45155d
+time 53898146 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 53898235 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 53901602 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=65361
+time 53901721 us: Target mote_base <---- Packet received | Address=f856867 | data=65361
+time 53901840 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 53901929 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 54471987 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=760a0e
+time 54472106 us: Target mote_base <---- Packet received | Address=2e22fbb7 | data=760a0e
+time 54472225 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 54472314 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 55932638 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c4d337
+time 55932757 us: Target mote_base <---- Packet received | Address=77485850 | data=c4d337
+time 55932876 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 55932965 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 56064411 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a3006e
+time 56064530 us: Target mote_base <---- Packet received | Address=4fa0d2e3 | data=a3006e
+time 56064649 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 56064738 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 56482345 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1e60e8
+time 56482464 us: Target mote_base <---- Packet received | Address=68b867d3 | data=1e60e8
+time 56482583 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 56482672 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 56629653 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a2f0e3
+time 56629772 us: Target mote_base <---- Packet received | Address=2ae05a34 | data=a2f0e3
+time 56629891 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 56629980 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 56673813 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=10836e
+time 56673932 us: Target mote_base <---- Packet received | Address=5454945e | data=10836e
+time 56674051 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 56674140 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 56726683 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b4a3a
+time 56726802 us: Target mote_base <---- Packet received | Address=2123d5f2 | data=b4a3a
+time 56726921 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 56727010 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 56876782 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=355d7e
+time 56876901 us: Target mote_base <---- Packet received | Address=94927a8 | data=355d7e
+time 56877020 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 56877109 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 57217197 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7e4ca9
+time 57217316 us: Target mote_base <---- Packet received | Address=52d7b105 | data=7e4ca9
+time 57217435 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 57217524 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 57685716 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=d27f48
+time 57685835 us: Target mote_base <---- Packet received | Address=24e60401 | data=d27f48
+time 57685954 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 57686043 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 58077420 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=439e77
+time 58077539 us: Target mote_base <---- Packet received | Address=baac1b4 | data=439e77
+time 58077658 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 58077747 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 58181572 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c6f773
+time 58181691 us: Target mote_base <---- Packet received | Address=779d8544 | data=c6f773
+time 58181810 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 58181899 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 58238024 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=19f08
+time 58238143 us: Target mote_base <---- Packet received | Address=21faa2fa | data=19f08
+time 58238262 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 58238351 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 58548536 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=39f469
+time 58548655 us: Target mote_base <---- Packet received | Address=6181ef69 | data=39f469
+time 58548774 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 58548863 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 58955997 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=2ae0e6
+time 58956116 us: Target mote_base <---- Packet received | Address=14217e23 | data=2ae0e6
+time 58956235 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 58956324 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 59198006 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=627b53
+time 59198125 us: Target mote_base <---- Packet received | Address=5015cd1a | data=627b53
+time 59198244 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 59198333 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 59212206 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=31a48c
+time 59212325 us: Target mote_base <---- Packet received | Address=1a9a9e69 | data=31a48c
+time 59212444 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 59212533 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 59391772 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=dd06ba
+time 59391891 us: Target mote_base <---- Packet received | Address=368db37e | data=dd06ba
+time 59392010 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 59392099 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 59395815 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=5e2c78
+time 59395934 us: Target mote_base <---- Packet received | Address=327b517e | data=5e2c78
+time 59396053 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 59396142 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 59712317 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a31a56
+time 59712436 us: Target mote_base <---- Packet received | Address=29bacf25 | data=a31a56
+time 59712555 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 59712644 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 59801767 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=af1c77
+time 59801886 us: Target mote_base <---- Packet received | Address=51bf6b48 | data=af1c77
+time 59802005 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 59802094 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 61295791 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=716228
+time 61295910 us: Target mote_base <---- Packet received | Address=2b4b8b53 | data=716228
+time 61296029 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 61296118 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 61342853 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=90f3da
+time 61342972 us: Target mote_base <---- Packet received | Address=116ae494 | data=90f3da
+time 61343091 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 61343180 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 61398236 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c087fc
+time 61398355 us: Target mote_base <---- Packet received | Address=b13a31 | data=c087fc
+time 61398474 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 61398563 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 61401927 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4149c7
+time 61402046 us: Target mote_base <---- Packet received | Address=631f1690 | data=4149c7
+time 61402165 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 61402254 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 61972310 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=23dc44
+time 61972429 us: Target mote_base <---- Packet received | Address=ead6f57 | data=23dc44
+time 61972548 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 61972637 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 63432966 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=680ccd
+time 63433085 us: Target mote_base <---- Packet received | Address=5c49eaee | data=680ccd
+time 63433204 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 63433293 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 63564736 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=21b1e7
+time 63564855 us: Target mote_base <---- Packet received | Address=397c46bc | data=21b1e7
+time 63564974 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 63565063 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 63982669 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=946049
+time 63982788 us: Target mote_base <---- Packet received | Address=5a9cc3e5 | data=946049
+time 63982907 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 63982996 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 64129982 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8a384d
+time 64130101 us: Target mote_base <---- Packet received | Address=3ca88ecf | data=8a384d
+time 64130220 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 64130309 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 64174137 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=5d2e2a
+time 64174256 us: Target mote_base <---- Packet received | Address=c058df5 | data=5d2e2a
+time 64174375 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 64174464 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 64227010 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1ec527
+time 64227129 us: Target mote_base <---- Packet received | Address=3102bbe2 | data=1ec527
+time 64227248 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 64227337 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 64377107 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=32be1a
+time 64377226 us: Target mote_base <---- Packet received | Address=541c8153 | data=32be1a
+time 64377345 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 64377434 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 64717522 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=477b61
+time 64717641 us: Target mote_base <---- Packet received | Address=10db9daa | data=477b61
+time 64717760 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 64717849 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 65186046 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=bfa68e
+time 65186165 us: Target mote_base <---- Packet received | Address=6d68ab2 | data=bfa68e
+time 65186284 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 65186373 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 65577743 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=28cf1f
+time 65577862 us: Target mote_base <---- Packet received | Address=63f37e85 | data=28cf1f
+time 65577981 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 65578070 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 65681898 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1e92fe
+time 65682017 us: Target mote_base <---- Packet received | Address=38a5d054 | data=1e92fe
+time 65682136 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 65682225 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 65738352 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1e6520
+time 65738471 us: Target mote_base <---- Packet received | Address=4b793735 | data=1e6520
+time 65738590 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 65738679 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 66048865 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=d74079
+time 66048984 us: Target mote_base <---- Packet received | Address=43d3bcd4 | data=d74079
+time 66049103 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 66049192 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 66456323 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c3c2d7
+time 66456442 us: Target mote_base <---- Packet received | Address=2e534a82 | data=c3c2d7
+time 66456561 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 66456650 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 66698334 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=d61727
+time 66698453 us: Target mote_base <---- Packet received | Address=71c1af98 | data=d61727
+time 66698572 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 66698661 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 66712533 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=748648
+time 66712652 us: Target mote_base <---- Packet received | Address=15bcaba8 | data=748648
+time 66712771 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 66712860 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 66892099 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=194ff3
+time 66892218 us: Target mote_base <---- Packet received | Address=434bae75 | data=194ff3
+time 66892337 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 66892426 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 66896139 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3b603c
+time 66896258 us: Target mote_base <---- Packet received | Address=4c502870 | data=3b603c
+time 66896377 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 66896466 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 67212645 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6e41b1
+time 67212764 us: Target mote_base <---- Packet received | Address=6a37288a | data=6e41b1
+time 67212883 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 67212972 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 67302093 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7c38b6
+time 67302212 us: Target mote_base <---- Packet received | Address=ca6b462 | data=7c38b6
+time 67302331 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 67302420 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 68796118 us: Initiator mote_10 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=26f96e
+time 68796237 us: Target mote_base <---- Packet received | Address=15b71329 | data=26f96e
+time 68796356 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 68796445 us: Initiator mote_10 <---- ACK Packet received | Phase=BEGIN_RESP
+time 68843178 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7de65a
+time 68843297 us: Target mote_base <---- Packet received | Address=1cdce2de | data=7de65a
+time 68843416 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 68843505 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 68898563 us: Initiator mote_16 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=37d534
+time 68898682 us: Target mote_base <---- Packet received | Address=2539dfa5 | data=37d534
+time 68898801 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 68898890 us: Initiator mote_16 <---- ACK Packet received | Phase=BEGIN_RESP
+time 68902255 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=df5343
+time 68902374 us: Target mote_base <---- Packet received | Address=706b674e | data=df5343
+time 68902493 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 68902582 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 69472637 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=533cad
+time 69472756 us: Target mote_base <---- Packet received | Address=684eed59 | data=533cad
+time 69472875 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 69472964 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 70933294 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b3f471
+time 70933413 us: Target mote_base <---- Packet received | Address=4a66051 | data=b3f471
+time 70933532 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 70933621 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 71065066 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=1c0f12
+time 71065185 us: Target mote_base <---- Packet received | Address=639defac | data=1c0f12
+time 71065304 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 71065393 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 71482994 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=640999
+time 71483113 us: Target mote_base <---- Packet received | Address=6b057295 | data=640999
+time 71483232 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 71483321 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 71630310 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b409a1
+time 71630429 us: Target mote_base <---- Packet received | Address=1c4a08ec | data=b409a1
+time 71630548 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 71630637 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 71674464 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3709f3
+time 71674583 us: Target mote_base <---- Packet received | Address=4e647fe4 | data=3709f3
+time 71674702 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 71674791 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 71727339 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c72ab3
+time 71727458 us: Target mote_base <---- Packet received | Address=565976f1 | data=c72ab3
+time 71727577 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 71727666 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 71877433 us: Initiator mote_4 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=974432
+time 71877552 us: Target mote_base <---- Packet received | Address=5c17530c | data=974432
+time 71877671 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 71877760 us: Initiator mote_4 <---- ACK Packet received | Phase=BEGIN_RESP
+time 72217849 us: Initiator mote_1 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=662d58
+time 72217968 us: Target mote_base <---- Packet received | Address=335a1df1 | data=662d58
+time 72218087 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 72218176 us: Initiator mote_1 <---- ACK Packet received | Phase=BEGIN_RESP
+time 72686377 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b6175a
+time 72686496 us: Target mote_base <---- Packet received | Address=378d97c0 | data=b6175a
+time 72686615 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 72686704 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 73078072 us: Initiator mote_12 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=66e2cf
+time 73078191 us: Target mote_base <---- Packet received | Address=316032bb | data=66e2cf
+time 73078310 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 73078399 us: Initiator mote_12 <---- ACK Packet received | Phase=BEGIN_RESP
+time 73182226 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=74f523
+time 73182345 us: Target mote_base <---- Packet received | Address=13cdfcfc | data=74f523
+time 73182464 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 73182553 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 73238679 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=54672e
+time 73238798 us: Target mote_base <---- Packet received | Address=1ddbc66 | data=54672e
+time 73238917 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 73239006 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 73549191 us: Initiator mote_13 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=cbb1f4
+time 73549310 us: Target mote_base <---- Packet received | Address=30eada61 | data=cbb1f4
+time 73549429 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 73549518 us: Initiator mote_13 <---- ACK Packet received | Phase=BEGIN_RESP
+time 73956649 us: Initiator mote_22 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=6f00cf
+time 73956768 us: Target mote_base <---- Packet received | Address=5e636063 | data=6f00cf
+time 73956887 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 73956976 us: Initiator mote_22 <---- ACK Packet received | Phase=BEGIN_RESP
+time 74198656 us: Initiator mote_15 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=333b8e
+time 74198775 us: Target mote_base <---- Packet received | Address=53280662 | data=333b8e
+time 74198894 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 74198983 us: Initiator mote_15 <---- ACK Packet received | Phase=BEGIN_RESP
+time 74212861 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=9a23ce
+time 74212980 us: Target mote_base <---- Packet received | Address=75b52783 | data=9a23ce
+time 74213099 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 74213188 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 74392424 us: Initiator mote_7 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=9b81a3
+time 74392543 us: Target mote_base <---- Packet received | Address=67a70b69 | data=9b81a3
+time 74392662 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 74392751 us: Initiator mote_7 <---- ACK Packet received | Phase=BEGIN_RESP
+time 74396468 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=d2d157
+time 74396587 us: Target mote_base <---- Packet received | Address=27edfe3a | data=d2d157
+time 74396706 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 74396795 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 74712973 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=d342ae
+time 74713092 us: Target mote_base <---- Packet received | Address=c4c3af | data=d342ae
+time 74713211 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 74713300 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 74802417 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=8626e6
+time 74802536 us: Target mote_base <---- Packet received | Address=6c053b16 | data=8626e6
+time 74802655 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 74802744 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 76343505 us: Initiator mote_14 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4a1dcc
+time 76343624 us: Target mote_base <---- Packet received | Address=5243bfac | data=4a1dcc
+time 76343743 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 76343832 us: Initiator mote_14 <---- ACK Packet received | Phase=BEGIN_RESP
+time 76402580 us: Initiator mote_17 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a7164
+time 76402699 us: Target mote_base <---- Packet received | Address=334a6f1f | data=a7164
+time 76402818 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 76402907 us: Initiator mote_17 <---- ACK Packet received | Phase=BEGIN_RESP
+time 76972963 us: Initiator mote_8 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=bcdac0
+time 76973082 us: Target mote_base <---- Packet received | Address=5c03d76d | data=bcdac0
+time 76973201 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 76973290 us: Initiator mote_8 <---- ACK Packet received | Phase=BEGIN_RESP
+time 78433620 us: Initiator mote_19 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=7d7bbb
+time 78433739 us: Target mote_base <---- Packet received | Address=56c28e34 | data=7d7bbb
+time 78433858 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 78433947 us: Initiator mote_19 <---- ACK Packet received | Phase=BEGIN_RESP
+time 78565392 us: Initiator mote_11 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=9c4d7e
+time 78565511 us: Target mote_base <---- Packet received | Address=435d38d | data=9c4d7e
+time 78565630 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 78565719 us: Initiator mote_11 <---- ACK Packet received | Phase=BEGIN_RESP
+time 78983318 us: Initiator mote_18 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4a0d05
+time 78983437 us: Target mote_base <---- Packet received | Address=57c5bb4f | data=4a0d05
+time 78983556 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 78983645 us: Initiator mote_18 <---- ACK Packet received | Phase=BEGIN_RESP
+time 79130639 us: Initiator mote_5 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=a16905
+time 79130758 us: Target mote_base <---- Packet received | Address=4f3a06d4 | data=a16905
+time 79130877 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 79130966 us: Initiator mote_5 <---- ACK Packet received | Phase=BEGIN_RESP
+time 79174788 us: Initiator mote_6 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=4435dd
+time 79174907 us: Target mote_base <---- Packet received | Address=48aeb063 | data=4435dd
+time 79175026 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 79175115 us: Initiator mote_6 <---- ACK Packet received | Phase=BEGIN_RESP
+time 79227666 us: Initiator mote_23 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=18834f
+time 79227785 us: Target mote_base <---- Packet received | Address=bb13c1 | data=18834f
+time 79227904 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 79227993 us: Initiator mote_23 <---- ACK Packet received | Phase=BEGIN_RESP
+time 80186703 us: Initiator mote_2 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=5738d4
+time 80186822 us: Target mote_base <---- Packet received | Address=217b22e4 | data=5738d4
+time 80186941 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 80187030 us: Initiator mote_2 <---- ACK Packet received | Phase=BEGIN_RESP
+time 80682557 us: Initiator mote_20 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=b1b699
+time 80682676 us: Target mote_base <---- Packet received | Address=6dc45e83 | data=b1b699
+time 80682795 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 80682884 us: Initiator mote_20 <---- ACK Packet received | Phase=BEGIN_RESP
+time 80739007 us: Initiator mote_9 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=3441c6
+time 80739126 us: Target mote_base <---- Packet received | Address=2bb180d8 | data=3441c6
+time 80739245 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 80739334 us: Initiator mote_9 <---- ACK Packet received | Phase=BEGIN_RESP
+time 81713188 us: Initiator mote_24 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=5ebb85
+time 81713307 us: Target mote_base <---- Packet received | Address=70836196 | data=5ebb85
+time 81713426 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 81713515 us: Initiator mote_24 <---- ACK Packet received | Phase=BEGIN_RESP
+time 81896796 us: Initiator mote_21 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=71e46e
+time 81896915 us: Target mote_base <---- Packet received | Address=2817e7ec | data=71e46e
+time 81897034 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 81897123 us: Initiator mote_21 <---- ACK Packet received | Phase=BEGIN_RESP
+time 82213302 us: Initiator mote_3 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=c70e0d
+time 82213421 us: Target mote_base <---- Packet received | Address=17d78639 | data=c70e0d
+time 82213540 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 82213629 us: Initiator mote_3 <---- ACK Packet received | Phase=BEGIN_RESP
+time 82302743 us: Initiator mote_0 ----> Sending Packet | Phase=BEGIN_REQ | Try=0 | data=218c1e
+time 82302862 us: Target mote_base <---- Packet received | Address=407168d8 | data=218c1e
+time 82302981 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP
+time 82303070 us: Initiator mote_0 <---- ACK Packet received | Phase=BEGIN_RESP
+time 89713748 us: Target mote_base ----> Sending back ACK Packet | Phase=BEGIN_RESP

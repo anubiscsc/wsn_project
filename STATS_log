@@ -1,0 +1,36 @@
+-------------------- WSN SIMULATION STATISTICS --------------------
+Simulation time: 9.00324 sec
+Execution Time: 2.42387 sec
+#Motes: 200
+#Channels: 1
+MAX_ITERATIONS: 10
+MAX_BITRATE: 300 kbps
+----------------------- PHYSICAL LAYER STATS -----------------------
+
+Maximum Idle Period: 1500 ms
+#Transactions sent: 6154
+#Transactions received: 3542
+Received Rate: 57.5561%
+#Collided Transactions: 2611
+Collision Rate: 42.4277%
+Average of Transactions per mote: 30.77
+Average of Collisions per mote: 13.055
+Average time per transaction: 106 us
+
+------------------------- MAC LAYER STATS -----------------------
+
+#DATA Packets created: 2000
+#DATA Packets received: 2000
+#ACK Packets received: 1542
+ACK Ratio: 77.1%
+Average tries per created packet: 2.0785
+Average delay per try: 346 us
+Backoff time (MAC): 357 us
+
+---------------------<<< Channel 0 >>>---------------------
+
+Channel BitRate: 270 kbps
+Transmission time (4 bytes per transaction): 119 us
+#Transactions: 6154
+#Collided Transactions: 2611
+Channel Collision Rate: 42.4277%

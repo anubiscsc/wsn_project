@@ -14,8 +14,8 @@ class collision_extension: public tlm::tlm_extension<collision_extension> {
 public:
 	collision_extension();
 	bool is_Collision;
-	virtual tlm::tlm_extension_base* clone() const;
-	virtual void copy_from(tlm_extension_base const&);
+	tlm::tlm_extension_base* clone() const;
+	void copy_from(tlm_extension_base const&);
 };
 
 

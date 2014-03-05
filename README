@@ -1,5 +1,101 @@
-This is a README file for the project: Wireless Sensor Networks
-The project is programmed with some special C++ libraries called SystemC and TLM-2.0 which provides a set of functionalities in order to codesign hardware & software and stablish a coding style of high level modul comunication.
-Main feature within the project is the TLM-2.0 comunicating protocol on Aproximately-timed coding style.
+This is a README file for the final thesis project: "Wireless Sensor Networks Simulator"
 
-new descriptions comming soon...
+Author: Carlos Sánchez Caldera
+Institution: Universitat Autònoma de Barcelona
+Bachelor: Computer Engineering
+
+Simulador de xarxes de sensors (Wireless Sensor Networks Simulator)
+-------------------------------------------------------------------
+This project intends to implement a simulator for generic wireless sensor networks with SystemC & TLM standards.
+The simulator proposed is programmed with specific C++ libraries called SystemC & TLM-2.0 which provides a set of interfaces for networks communication modelling and simulation.
+Main feature within the project is to simulate the physical layer and analize the collision behaviour of comunications on the network modelled, with help of an example MAC protocol.
+The communication simulation design is based on TLM-2.0 Base Protocol on Aproximately-timed coding style.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Changes for version 1.4
+
+- Fix: Layout of 3 different data files which contain PHY and MAC1 communication data, and packet statistics.
+  (The old data file match with the new PHY communication data).
+  
+- Fix: Halt the base_mote_simulation thread when simulation ends.
+
+- Fix: Just count one transaction per sending mote. Enhance the statistics count taking into account the new changes.
+
+- Fix: Adapt the sending time and idle time parameters to realistic values for radio transmiting systems.
+
+- Fix: The collision detection has been simplified, now the delay time to summit the transaction is the same for all motes.
+
+- Fix: The source mote expects to receive the ack packet by the same channel that was chosen to send the transaction.
+	   Hence, the base mote sends back the ack packet through the same channelId from which base mote was listening.
+	   	
+- Fix: Now the delay time value depends on packet size and channel properties.
+
+- Fix: now the "Mote_base" class performs the first layer (generic payload, base protocol, collision detection), "Mote_a" and "Mote_b" classes perform the second layer (DATA/ACK packets). 
+	   Mote_b has to perform a thread for listening at a given channel without any delay time for handling transactions.
+
+- Fix: The send_response function has been re-adapted to be the callback function of a new payload event queue variable. 
+	   This way, the systemc sheduler is able to handle all the incomming DATA packets at Mote_b, enhancing the overall simulation behviour.
+
+- to be fixed: channel_control thread ends before the last ack packet has been sent back to its source mote.
+
+New Features:
+
+- New MAC layer protocol over the already implemented scheme. The initial mechanism is quite basic, the mote sends a data packet to a receiver mote and waits until the receiving mote send back the acknowledge packet.
+  The new protocol perform 5 tries to commit the transaction with such mechanism. 
+
+- The program layout, has been splitted into 3 log files: one file for physical layer output, another for MAC layer output and the last one for simulation statistics.
+
+- New random distributions such Normal or Gaussian distributions are used to set the period time among sendings in order to stabilize the overall collition ratios.
+
+- New MAC layer statistics are catched from simulation (DATA/ACK packets, number of tries, average delay per data packet created...).
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Changes for version 1.3
+
+- Fix: Create a derived class of "Mote_base" which could hide the tlm-2.0 properties of the transaction, and get things easier for simulator users.
+  This new class now implements the send/recv methods which operate with channel id and data buffer. SystemC & TLM-2.0 standards are executed in a lower level.
+
+- Fix: Change of mote state names. "STANDBY" is now "IDLE", "LISTENING_CHANNEL" is now "LISTENING"; "SENDING_TRANS" is now "SENDING"
+
+- Fix: Now simulation parameters like number of channels are command line parameters, therefore are set up at execution time.
+
+- Fix: Now total amount of transactions sent and received are counted correctly.
+
+- Fix: the simulation function (in class Mote) have been restructured.
+
+New Features:
+
+- A new functionality to filter all the required data in order to generate statistics about the simulation and evaluate its behaviour.
+  To do so, a new class called Stats has been created. This class monitorize the overall amount of transactions, the amount of collisions, collisions rate, etc.
+
+- recv() function in Mote class, keeps the mote listening, on one random channel, until a transaction is received. Afterwards, the mote state is switched to IDLE.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Changes for version 1.2
+
+- Fixed: Now when a mote sends a transaction with zero transmisions in channel, gets updated in case that other mote sends a new transaction while the first is still alive.
+
+- Fixed: Now source motes which try to transmit a transaction through the channel with no listening state motes, will change state immediately.
+
+- Fixed: Now the source mote state changes only when the transaction is completed for the last destination mote (synchronizing by transaction lifetime).
+
+- Fixed: The transaction stack in the channel control thread, is properly updated when a new transaction is set by a mote whatever.
+
+- Fixed: Set a halt functionality to channel_control when all motes have finished.
+
+
+New Features:
+	
+- A new thread bound to the sc_module Channel has been created: channel_control. The purpose of this thread is keeping updated a 
+  stack of "active" transactions which are being transmitted though the interconnection component (channel), and monitoring their lifetimes.
+  Also manage the collision status of the active transactions.
+  
+- The channel gets splited, conceptually, in 3 collision-independent scopes. The collision status checking takes into account this new transaction feature.
+
+- Creation of send/recv methods which include low level transaction functionality (implements the TLM standard behaviour for the transaction exchange).
+  Now the mote thread_process implements just the basic simulation functionality.
+  
+- Overload of Operator==() in order to compare and check collisions among transaction which may be transmitting in different channels (working scopes?) or not.
+( - Creation of different Channel properties from which evaluate every mote transmision scope. )
